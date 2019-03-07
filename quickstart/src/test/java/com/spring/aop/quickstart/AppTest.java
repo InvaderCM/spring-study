@@ -1,4 +1,4 @@
-package com.spring.quickstart;
+package com.spring.aop.quickstart;
 
 import static org.junit.Assert.assertTrue;
 

@@ -75,3 +75,148 @@
 2019-03-04 08:38:29 DEBUG DefaultListableBeanFactory:254 - Returning cached instance of singleton bean 'lifecycleProcessor'
 2019-03-04 08:38:29 DEBUG PropertySourcesPropertyResolver:96 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
 2019-03-04 08:38:29 DEBUG DefaultListableBeanFactory:254 - Returning cached instance of singleton bean 'student'
+2019-03-04 10:15:50 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-04 10:15:51 DEBUG XmlBeanDefinitionReader:395 - Loaded 2 bean definitions from class path resource [spring.xml]
+2019-03-04 10:15:51 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-04 10:15:51 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-05 20:23:00 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-05 20:23:00 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [spring.xml]
+2019-03-05 20:23:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-05 20:23:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-05 20:23:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car1'
+2019-03-05 20:23:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car2'
+2019-03-05 20:23:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car3'
+2019-03-05 20:23:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss1'
+2019-03-05 20:23:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss2'
+2019-03-05 20:23:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss3'
+2019-03-05 20:23:00 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'meeting'
+2019-03-05 20:23:00  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'meeting' defined in class path resource [spring.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type 'java.util.ArrayList' to required type 'java.util.List' for property 'boss'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'com.spring.Boss' to required type 'java.lang.String' for property 'boss[0]': no matching editors or conversion strategy found
+2019-03-05 20:29:04 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-05 20:29:04 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [spring.xml]
+2019-03-05 20:29:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-05 20:29:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-05 20:29:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car1'
+2019-03-05 20:29:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car2'
+2019-03-05 20:29:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car3'
+2019-03-05 20:29:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss1'
+2019-03-05 20:29:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss2'
+2019-03-05 20:29:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss3'
+2019-03-05 20:29:04 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'meeting'
+2019-03-05 20:29:04  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'meeting' defined in class path resource [spring.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type 'java.util.ArrayList' to required type 'java.util.List' for property 'boss'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'com.spring.Boss' to required type 'java.lang.String' for property 'boss[0]': no matching editors or conversion strategy found
+2019-03-05 20:29:53 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-05 20:29:54 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [spring.xml]
+2019-03-05 20:29:54 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-05 20:29:54 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-05 20:29:54 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car1'
+2019-03-05 20:29:54 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car2'
+2019-03-05 20:29:54 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car3'
+2019-03-05 20:29:54 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss1'
+2019-03-05 20:29:54 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss2'
+2019-03-05 20:29:54 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss3'
+2019-03-05 20:29:54 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'meeting'
+2019-03-05 20:29:54  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'meeting' defined in class path resource [spring.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type 'java.util.ArrayList' to required type 'java.util.List' for property 'boss'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'com.spring.Boss' to required type 'java.lang.String' for property 'boss[0]': no matching editors or conversion strategy found
+2019-03-05 20:29:57 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-05 20:29:57 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [spring.xml]
+2019-03-05 20:29:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-05 20:29:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-05 20:29:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car1'
+2019-03-05 20:29:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car2'
+2019-03-05 20:29:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car3'
+2019-03-05 20:29:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss1'
+2019-03-05 20:29:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss2'
+2019-03-05 20:29:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss3'
+2019-03-05 20:29:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'meeting'
+2019-03-05 20:29:58  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'meeting' defined in class path resource [spring.xml]: Initialization of bean failed; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert property value of type 'java.util.ArrayList' to required type 'java.util.List' for property 'boss'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'com.spring.Boss' to required type 'java.lang.String' for property 'boss[0]': no matching editors or conversion strategy found
+2019-03-05 20:32:37 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-05 20:32:37 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [spring.xml]
+2019-03-05 20:32:37 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-05 20:32:38 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-05 20:32:38 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car1'
+2019-03-05 20:32:38 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car2'
+2019-03-05 20:32:38 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car3'
+2019-03-05 20:32:38 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss1'
+2019-03-05 20:32:38 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss2'
+2019-03-05 20:32:38 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss3'
+2019-03-05 20:32:38 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'meeting'
+2019-03-05 20:36:21 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-05 20:36:21 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [spring.xml]
+2019-03-05 20:36:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-05 20:36:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-05 20:36:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car1'
+2019-03-05 20:36:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car2'
+2019-03-05 20:36:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car3'
+2019-03-05 20:36:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss1'
+2019-03-05 20:36:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss2'
+2019-03-05 20:36:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss3'
+2019-03-05 20:36:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'meeting'
+2019-03-05 20:36:46 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-05 20:36:47 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [spring.xml]
+2019-03-05 20:36:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-05 20:36:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-05 20:36:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car1'
+2019-03-05 20:36:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car2'
+2019-03-05 20:36:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car3'
+2019-03-05 20:36:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss1'
+2019-03-05 20:36:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss2'
+2019-03-05 20:36:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss3'
+2019-03-05 20:36:47 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'meeting'
+2019-03-05 20:37:34 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-05 20:37:34 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [spring.xml]
+2019-03-05 20:37:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-05 20:37:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-05 20:37:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car1'
+2019-03-05 20:37:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car2'
+2019-03-05 20:37:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car3'
+2019-03-05 20:37:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss1'
+2019-03-05 20:37:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss2'
+2019-03-05 20:37:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss3'
+2019-03-05 20:37:34 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'meeting'
+2019-03-06 15:58:11 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-06 15:58:11 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [spring.xml]
+2019-03-06 15:58:12 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-06 15:58:12 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-06 15:58:12 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car1'
+2019-03-06 15:58:12 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car2'
+2019-03-06 15:58:12 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car3'
+2019-03-06 15:58:12 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss1'
+2019-03-06 15:58:12 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss2'
+2019-03-06 15:58:12 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss3'
+2019-03-06 15:58:12 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'meeting'
+2019-03-06 20:21:26 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-06 20:21:27 DEBUG XmlBeanDefinitionReader:395 - Loaded 12 bean definitions from class path resource [spring.xml]
+2019-03-06 20:21:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-06 20:21:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-06 20:21:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car1'
+2019-03-06 20:21:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car2'
+2019-03-06 20:21:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'car3'
+2019-03-06 20:21:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss1'
+2019-03-06 20:21:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss2'
+2019-03-06 20:21:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'boss3'
+2019-03-06 20:21:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'meeting'
+2019-03-06 20:21:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'max'
+2019-03-06 20:21:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2019-03-06 20:21:27 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userLogin'
+2019-03-07 10:03:38 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@15615099
+2019-03-07 10:03:38 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [spring.xml]
+2019-03-07 10:03:38 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 10:03:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 10:03:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 10:03:39 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'mybeforeAdvice'
+2019-03-07 10:09:55 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-07 10:09:55 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [spring.xml]
+2019-03-07 10:09:55 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 10:09:55 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 10:09:55 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 10:09:56 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'mybeforeAdvice'
+2019-03-07 10:13:02 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-07 10:13:03 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [spring.xml]
+2019-03-07 10:13:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 10:13:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 10:13:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 10:13:03 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'mybeforeAdvice'
+2019-03-07 10:17:28 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@368102c8
+2019-03-07 10:17:28 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [spring.xml]
+2019-03-07 10:17:28 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 10:17:28 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 10:17:28 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 10:17:29 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'mybeforeAdvice'

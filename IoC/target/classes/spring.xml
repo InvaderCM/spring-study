@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="messageServiceImpl" class="com.spring.aop.MessageServiceImpl">
+        <constructor-arg name="username" value="Meng Cai"/>
+        <constructor-arg name="age" value="20"/>
+    </bean>
+    <bean id="messagePrinter" class="com.spring.aop.MessagePrinter">
+        <constructor-arg name="service" ref="messageServiceImpl"/>
+    </bean>
+    <bean id="car1" class="com.spring.aop.Car">
+        <property name="brand" value="兰博基尼"/>
+        <property name="color" value="蓝色"/>
+        <property name="parameter" value="4.1"/>
+    </bean>
+    <bean id="car2" class="com.spring.aop.Car">
+        <property name="brand" value="奔驰"/>
+        <property name="color" value="红色"/>
+        <property name="parameter" value="4.1"/>
+    </bean>
+    <bean id="car3" class="com.spring.aop.Car">
+        <property name="brand" value="宝马"/>
+        <property name="color" value="白色"/>
+        <property name="parameter" value="4.1"/>
+    </bean>
+    <bean id="boss1" class="com.spring.aop.Boss">
+        <property name="name" value="梁"/>
+        <property name="company" value="电子科技公司"/>
+        <property name="car" ref="car1"/>
+        <property name="hobbies">
+            <list>
+                <value>阅读</value>
+                <value>听音乐</value>
+            </list>
+        </property>
+    </bean>
+    <bean id="boss2" class="com.spring.aop.Boss">
+        <property name="name" value="李"/>
+        <property name="company" value="科技公司"/>
+        <property name="car" ref="car2"/>
+        <property name="hobbies">
+            <list>
+                <value>打乒乓球</value>
+                <value>读书</value>
+            </list>
+        </property>
+    </bean>
+    <bean id="boss3" class="com.spring.aop.Boss">
+        <property name="name" value="萌"/>
+        <property name="company" value="文化公司"/>
+        <property name="car" ref="car3"/>
+        <property name="hobbies">
+            <list>
+                <value>听音乐</value>
+                <value>阅读</value>
+            </list>
+        </property>
+    </bean>
+    <bean id="meeting" class="com.spring.aop.Meeting">
+        <property name="theme" value="经济"/>
+        <property name="boss">
+            <list>
+                <ref bean="boss1"/>
+                <ref bean="boss2"/>
+                <ref bean="boss3"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="max" class="com.spring.aop.Max">
+        <constructor-arg name="a" value="5"/>
+        <constructor-arg name="b" value="3"/>
+    </bean>
+    <!--配置一个User的bean-->
+    <bean id="user" class="com.spring.aop.User">
+        <constructor-arg name="account" value="admin"/>
+        <constructor-arg name="password" value="123"/>
+    </bean>
+
+    <!--配置一个UserLogin的bean-->
+    <bean id="userLogin" class="com.spring.aop.UserLogin">
+        <property name="user" ref="user"/>
+    </bean>
+</beans>

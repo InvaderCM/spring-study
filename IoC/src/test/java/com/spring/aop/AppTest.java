@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.aop;
 
 import static org.junit.Assert.assertTrue;
 
