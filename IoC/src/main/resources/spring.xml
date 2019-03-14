@@ -7,7 +7,7 @@
         <constructor-arg name="age" value="20"/>
     </bean>
     <bean id="messagePrinter" class="com.spring.aop.MessagePrinter">
-        <constructor-arg name="service" ref="messageServiceImpl"/>
+        <constructor-arg name="com.spring.orm.service" ref="messageServiceImpl"/>
     </bean>
     <bean id="car1" class="com.spring.aop.Car">
         <property name="brand" value="兰博基尼"/>

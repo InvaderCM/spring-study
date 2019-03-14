@@ -1,6 +1,6 @@
 package com.spring.aop;
 
-public class MoveProxy implements Move{
+public class MoveProxy implements Move {
     private Move t;
 
     public MoveProxy(Move t) {

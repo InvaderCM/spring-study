@@ -9,14 +9,22 @@
     <!--配置一个Hello的bean  等同于Hello hello = new HelloImpl();-->
     <bean id="hello" class="com.spring.aop.HelloImpl"/>
     <!--配置一个MyBeforeAdvice前置增强的bean-->
-    <bean id="mybeforeAdvice" class="com.spring.aop.MyBeforeAdvice"/>
+    <bean id="myBeforeAdvice" class="com.spring.aop.MyBeforeAdvice"/>
     <!--配置Aop-->
     <aop:config>
-        <aop:aspect id="before" ref="mybeforeAdvice">
-            <aop:pointcut id="myPointcut" expression="execution(* com.spring.*.*(..))"/>
+        <aop:aspect id="before" ref="myBeforeAdvice">
+            <aop:pointcut id="myPointcut" expression="execution(* com.spring.aop.*.*(..))"/>
             <aop:before method="beforeMethod" pointcut-ref="myPointcut"/>
         </aop:aspect>
     </aop:config>
 
+    <bean id="userDao" class="com.spring.aop.UserDaoImpl"/>
+    <bean id="beforeAdvice" class="com.spring.aop.BeforeAdvice"/>
+    <aop:config>
+        <aop:aspect id="before1" ref="beforeAdvice">
+            <aop:pointcut id="myPoint" expression="execution(* com.spring.aop.*.*(..))"/>
+            <aop:before method="connectDB" pointcut-ref="myPoint"/>
+        </aop:aspect>
+    </aop:config>
 
 </beans>
